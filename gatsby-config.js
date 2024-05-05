@@ -37,7 +37,7 @@ module.exports = {
     "gatsby-plugin-sitemap", {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        "icon": "src/images/icon.png"
+        "icon": "static/icon.png"
       }
   }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',

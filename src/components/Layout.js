@@ -1,14 +1,13 @@
 import * as React from "react"
+import "./Layout.scss"
 
 const Layout = ({ children }) => {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className="container">
-            <a className="navbar-brand" href="/">
-              <img className='logo' src="images/Solar Clean USA_transparent.png" />
-              Solar Clean USA
+        <nav className="navbar navbar-expand-lg navbar-light bg-white">
+            <a className="navbar-brand logo" href="/">
+              {/* <img src={"/SolarCleanColorado.svg"} /> */}
             </a>
             <button
               className="navbar-toggler"
@@ -37,10 +36,11 @@ const Layout = ({ children }) => {
                 </li>
               </ul>
             </div>
-          </div>
         </nav>
       </header>
+      <main className="main">
       {children}
+      </main>
     </>
   )
 }

@@ -1,0 +1,14 @@
+.jumbotron {
+    height: 600px;
+    background-image: url("/solarpanels1.jpg");
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center bottom;  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    .title {
+        font-size: 6em;
+    }
+}
