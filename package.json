@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "solar-clean-colorado",
-  "author": "Samuel Krohn",
+  "author": "Solar Clean Colorado",
   "keywords": [
     "gatsby"
   ],
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@react-icons/all-files": "^4.1.0",
     "bootstrap": "^5.3.3",
     "gatsby": "^5.13.3",
     "gatsby-plugin-google-gtag": "^5.13.1",
