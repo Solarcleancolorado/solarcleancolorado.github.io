@@ -1,0 +1,69 @@
+@import '../../styles/variables';
+
+.jumbotron {
+    height: 600px;
+    // background-image: url("/solarpanels2.jpg");
+    background-size: cover;                    
+    background-repeat: no-repeat;
+    background-position: center bottom;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    .title {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .jumbo {
+        color: $white;
+        font-size: 6em;
+        text-shadow: 5px 5px $black;
+        -webkit-text-stroke: 2px $black;
+        font-weight: 1000;
+
+        @media (max-width: 1200px) {
+            font-size: 4em;
+            -webkit-text-stroke: 1px $black;            
+        }
+
+        @media (max-width: 992px) {
+            font-size: 3.25em;
+            -webkit-text-stroke: 1px $black;            
+        }
+
+        @media (max-width: 576px) {
+            font-size: 2.5em;
+            -webkit-text-stroke: 1px $black;            
+        }
+    }
+
+    .sub {
+        color: $white;
+        font-size: 3.5em;
+        font-weight: 800;
+        text-shadow: 5px 5px $black;
+        -webkit-text-stroke: 1px $black;
+
+        @media (max-width: 1200px) {
+            font-size: 3em;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 2.5em;
+            -webkit-text-stroke: 1px $black;            
+        }
+
+        @media (max-width: 576px) {
+            margin: 0 5%;
+            font-size: 2em;
+            -webkit-text-stroke: 1px $black;
+        }
+    }
+}

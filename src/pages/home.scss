@@ -1,32 +1,14 @@
 @import '../styles/variables';
 
-.jumbotron {
-    height: 600px;
-    background-image: url("/solarpanels1.jpg");
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    background-position: center bottom;  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    .title {
-        color: $white;
-        font-size: 6em;
-        text-shadow: 3px 3px $black;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: $black;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
+.grid-container {
+    display: grid;
 
-        @media (max-width: 576px) { 
-            font-size: 2.5em;
-            -webkit-text-stroke-width: 1px;
-            text-shadow: 2px 2px $black;
+    .images {
+        
+        img {
+            width: 500px;
+            height: 300px;
+            object-fit: cover;
         }
     }
 }

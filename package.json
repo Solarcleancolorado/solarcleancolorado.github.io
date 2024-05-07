@@ -16,6 +16,7 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
+    "@emotion/css": "^11.11.2",
     "@popperjs/core": "^2.11.8",
     "@react-icons/all-files": "^4.1.0",
     "bootstrap": "^5.3.3",

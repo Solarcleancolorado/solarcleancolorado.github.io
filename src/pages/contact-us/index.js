@@ -1,16 +1,11 @@
 import * as React from "react"
-import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 import Layout from "../../components/Layout/Layout"
+import Jumbotron from "../../components/Jumbotron/Jumbotron";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <div className="jumbotron">
-        <h1 className="title">Solar Clean Colorado</h1>
-      </div>
-      <div>
-        {/* <FaPhoneAlt /> */}
-      </div>
+      <Jumbotron img="/solarpanels3.jpg" title="Contact Us" />
     </Layout>
   )
 }
