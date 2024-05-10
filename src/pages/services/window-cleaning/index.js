@@ -13,8 +13,11 @@ const IndexPage = () => {
 export default IndexPage
 
 export const Head = () => {
-  return (<html lang="en" >
+  return (
+  <html lang="en" >
     <title>Window Cleaning Service - Solar Clean Colorado</title>
-  </html>)
+    <meta name="description" content="Transform your windows and see the world more clearly with our professional window cleaning services in the Douglas County area. Schedule now!" />
+  </html>
+  )
 }
 

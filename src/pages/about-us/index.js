@@ -36,6 +36,7 @@ export default IndexPage
 export const Head = () => {
   return (<html lang="en" >
     <title>About - Solar Clean Colorado</title>
+    <meta name="description" content="Learn about Solar Clean Colorado's mission and dedication to superior window and solar panel cleaning services in the Douglas County area." />
   </html>)
 }
 

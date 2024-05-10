@@ -11,6 +11,7 @@ const Navbar = () => {
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
+            aria-label="Navbar Toggler"
         >
         <span className="navbar-toggler-icon"></span>
         </button>
