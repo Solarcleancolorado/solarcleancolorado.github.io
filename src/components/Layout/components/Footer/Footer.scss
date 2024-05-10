@@ -13,7 +13,7 @@
         padding-top: 40px;
         padding-bottom: 40px;
         height: auto;
-        background-color: lighten($dark, 30%);
+        background-color: lighten($dark, 15%);
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 2fr;
@@ -45,7 +45,7 @@
             margin: auto;
             width: 150px;  
             height: 150px;   
-            background-image: url("/icon.png");
+            background-image: url("/icon.webp");
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }

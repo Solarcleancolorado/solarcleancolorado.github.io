@@ -34,7 +34,7 @@ module.exports = {
   "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "static/icon.png"
+      "icon": "static/icon.webp"
     }
   }, 
   "gatsby-plugin-sharp", 
