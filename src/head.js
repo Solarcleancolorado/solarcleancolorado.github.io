@@ -1,6 +1,6 @@
 import * as React from "react"
 
-export const headData= [
+export const headData = [
     <meta property="og:locale" content="en_US" />,
     <meta property="og:type" content="website" />,
     <meta property="og:title" content="Solar Panel and Window Cleaning - Solar Clean Colorado" />,
