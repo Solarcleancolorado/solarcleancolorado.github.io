@@ -29,9 +29,6 @@ module.exports = {
       },
     },
   },
-  new MiniCssExtractPlugin({
-    ignoreOrder: true
-  }),
   "gatsby-plugin-sass", 
   "gatsby-plugin-image", 
   "gatsby-plugin-sitemap", {
