@@ -1,11 +1,11 @@
 import * as React from "react"
-import Layout from "../../components/Layout/Layout"
-import Jumbotron from "../../components/Jumbotron/Jumbotron";
+import Layout from "../../../components/Layout/Layout"
+import Jumbotron from "../../../components/Jumbotron/Jumbotron";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <Jumbotron img="contactUs" title="Contact Us" />
+      <Jumbotron img="services" title="Solar Panel Cleaning" />
     </Layout>
   )
 }

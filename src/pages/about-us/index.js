@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <div className="grid-container">
-        <Jumbotron img="/solarpanels4.jpg" title="About Solar Clean Colorado" />
+        <Jumbotron img="aboutUs" title="About Solar Clean Colorado" />
         <BorderBreak backgroundColor="info"/>
         <BorderBreak height="100px" backgroundColor="dark"></BorderBreak>
         <section className="about-us">
@@ -24,7 +24,7 @@ const IndexPage = () => {
             <p>Rest assured knowing that we are fully licensed and insured, providing peace of mind and ensuring the highest standards of professionalism and safety in all our services.</p>
           </div>
         </section>
-        <CallToAction button={"Get a free estimate!"}>When did you last clean your solar panels?</CallToAction>
+        <CallToAction button={"Get a free estimate!"} text="When did you last clean your solar panels?" />
         
       </div>
     </Layout>

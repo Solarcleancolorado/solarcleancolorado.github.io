@@ -3,7 +3,6 @@ import "./Footer.scss"
 import { FaRegCopyright  } from "@react-icons/all-files/fa/FaRegCopyright";
 import { FaPhoneAlt  } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
-import { FaFacebook  } from "@react-icons/all-files/fa/FaFacebook";
 
 const Footer = () => {
   return (
@@ -20,7 +19,6 @@ const Footer = () => {
           <div className="d-flex flex-column">
             <span><FaPhoneAlt />&nbsp;<a href="tel:720-541-3606">(720) 541-3606</a></span>
             <span><FaEnvelope />&nbsp;<a href="mailto:info@solarcleancolorado.com">info@solarcleancolorado.com</a></span>
-            {/* <span><FaFacebook /></span> */}
           </div>
         </div>
         <div>

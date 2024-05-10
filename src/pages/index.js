@@ -9,8 +9,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <div className="grid-container">
-        <Jumbotron img="/solarpanels2.jpg" title="Solar Clean Colorado" subtitle="Professional Solar Panel and Window Cleaning" />
-        <CallToAction button={"Call us today!"}>Give life back to your solar panels!</CallToAction>
+        <Jumbotron img="home" title="Solar Clean Colorado" subtitle="Professional Solar Panel and Window Cleaning" />
+        <CallToAction button="Call us today!" text="Give life back to your solar panels!" />
         <WhyClean />
       </div>
     </Layout>
