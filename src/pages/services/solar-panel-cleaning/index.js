@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../../../components/Layout/Layout"
 import Jumbotron from "../../../components/Jumbotron/Jumbotron";
+import { headData } from "../../../head"
 
 const IndexPage = () => {
   return (
@@ -12,10 +13,10 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => {
-  return (<html lang="en" >
+export const Head = () => 
+  <html lang="en" >
     <title>Solar Panel Cleaning Service - Solar Clean Colorado</title>
     <meta name="description" content="Boost solar efficiency with our expert cleaning services in the Douglas County area. Schedule now!" />
-  </html>)
-}
+    { headData }
+  </html>
 

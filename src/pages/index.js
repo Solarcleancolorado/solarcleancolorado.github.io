@@ -4,6 +4,7 @@ import CallToAction from "../components/CallToAction/CallToAction"
 import "./home.scss"
 import Jumbotron from "../components/Jumbotron/Jumbotron"
 import WhyClean from "../components/WhyClean/WhyClean"
+import { headData } from "../head"
 
 const IndexPage = () => {
   return (
@@ -19,9 +20,9 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => {
-  return (<html lang="en" >
+export const Head = () => 
+  <html lang="en">
     <title>Solar Panel and Window Cleaning - Solar Clean Colorado</title>
     <meta name="description" content="Enhance your view and energy efficiency with premier window and solar panel cleaning in the Douglas County area. Contact us today!" />
-  </html>)
-}
+    { headData }
+  </html>
