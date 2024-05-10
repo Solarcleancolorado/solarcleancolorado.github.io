@@ -33,4 +33,9 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Solar Clean Colorado</title>
+export const Head = () => {
+  return (<html lang="en" >
+    <title>About - Solar Clean Colorado</title>
+  </html>)
+}
+

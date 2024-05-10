@@ -14,5 +14,9 @@ const NotFoundPage = () => {
 }
 
 export default NotFoundPage
+export const Head = () => {
+  return (<html lang="en" >
+    <title>Not found</title>
+  </html>)
+}
 
-export const Head = () => <title>Not found</title>

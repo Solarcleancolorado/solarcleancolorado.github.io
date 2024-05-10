@@ -19,4 +19,8 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Solar Clean Colorado</title>
+export const Head = () => {
+  return (<html lang="en" >
+    <title>Solar Panel and Window Cleaning - Solar Clean Colorado</title>
+  </html>)
+}
