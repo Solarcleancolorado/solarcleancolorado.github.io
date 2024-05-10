@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Solar Clean Colorado website
+  Solar Clean Colorado
 </h1>
 
 ## 🚀 Quick start
