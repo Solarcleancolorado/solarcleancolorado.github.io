@@ -2,7 +2,6 @@ import * as React from "react"
 
 export const headData = [
     <meta name="facebook-domain-verification" content="jsb4rolhsirj5ajqczh1w0882flgkq" />,
-    <meta property="fb:app_id" content="981155113591352" />,
     <meta property="og:locale" content="en_US" />,
     <meta property="og:type" content="website" />,
     <meta property="og:title" content="Solar Panel and Window Cleaning - Solar Clean Colorado" />,

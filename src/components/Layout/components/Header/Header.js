@@ -6,9 +6,8 @@ import "./Header.scss"
 const Header = () => {
   return (
     <header className="header pe-3 pe-sm-5">
-    {/* <header className="header d-none d-sm-flex pe-5"> */}
-        <span><FaPhoneAlt className="icon"/><a href="tel:720-541-3606">(720) 541-3606</a></span>
-        <span><FaEnvelope className="icon"/><a href="mailto:info@solarcleancolorado.com">info@solarcleancolorado.com</a></span>
+        <span className="d-flex align-items-center"><FaPhoneAlt className="icon"/><a href="tel:720-541-3606">(720) 541-3606</a></span>
+        <span className="d-flex align-items-center"><FaEnvelope className="icon"/><a href="mailto:info@solarcleancolorado.com">info@solarcleancolorado.com</a></span>
     </header>
   )
 }

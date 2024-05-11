@@ -12,8 +12,8 @@ const imageProps = {
 const images = {
   home: <StaticImage src="../../images/solarpanels2.webp" {...imageProps} />,
   aboutUs: <StaticImage src="../../images/solarpanels4.webp" {...imageProps} />,
-  contactUs: <StaticImage src="../../images/solarpanels3.webp" {...imageProps} />,
-  services: <StaticImage src="../../images/solarpanels5.webp" {...imageProps} />
+  contactUs: <StaticImage src="../../images/solarpanelshome1.webp" {...imageProps} />,
+  solarCleaning: <StaticImage src="../../images/solarpanels5.webp" {...imageProps} />
 }
 
 const Jumbotron = ({img, title, subtitle}) => {
