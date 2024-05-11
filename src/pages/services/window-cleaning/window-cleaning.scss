@@ -1,0 +1,35 @@
+.window-cleaning {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    h2 {
+        font-size: 2.75em;
+        text-align: center;
+    }
+    
+    p {
+        padding: 20px 15%;
+    }
+    
+    @media (max-width: 992px) {
+        h2 {
+            font-size: 2em;
+        }
+
+        p {
+            padding: 20px 8%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        h2 {
+            font-size: 1.75em;
+        }
+
+        p {
+            padding: 20px 5%;
+        }
+    }
+
+}
+

@@ -3,8 +3,9 @@ import Layout from "../components/Layout/Layout"
 import CallToAction from "../components/CallToAction/CallToAction"
 import "./home.scss"
 import Jumbotron from "../components/Jumbotron/Jumbotron"
-import WhyClean from "../components/WhyClean/WhyClean"
+import WhyCleanSolar from "../components/WhyCleanSolar/WhyCleanSolar"
 import { headData } from "../head"
+import WhyCleanWindows from "../components/WhyCleanWindows/WhyCleanWindows"
 
 const IndexPage = () => {
   return (
@@ -12,7 +13,8 @@ const IndexPage = () => {
       <div className="grid-container">
         <Jumbotron img="home" title="Solar Clean Colorado" subtitle="Professional Solar Panel and Window Cleaning" />
         <CallToAction button="Call us today!" text="Give life back to your solar panels!" />
-        <WhyClean />
+        <WhyCleanWindows />
+        <WhyCleanSolar />
       </div>
     </Layout>
   )

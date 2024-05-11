@@ -4,7 +4,6 @@ import Layout from "../../components/Layout/Layout"
 import Jumbotron from "../../components/Jumbotron/Jumbotron"
 import { FaPhoneAlt  } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
-import { FaFacebook } from "@react-icons/all-files/fa/FaFacebook"; 
 import BorderBreak from "../../components/BorderBreak/BorderBreak"
 import { headData } from "../../head"
 
