@@ -31,10 +31,10 @@ const IndexPage = () => {
           <div id="imageCarousel" className="carousel slide carousel-fade d-md-none" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="3000">
-                <StaticImage src="../../images/SolarCleanColorado2.webp" alt="Solar Clean Colorado cleaning windows" className="img-thumbnail"  width={480} height={640} />
+                <StaticImage src="../../images/SolarCleanColorado1.webp" alt="Solar Clean Colorado cleaning windows" className="img-thumbnail"  width={480} height={640} />
               </div>
               <div className="carousel-item" data-bs-interval="3000">
-                <StaticImage src="../../images/SolarCleanColorado1.webp" alt="Solar Clean Colorado cleaning windows" className="img-thumbnail" width={480} height={640} />
+                <StaticImage src="../../images/SolarCleanColorado2.webp" alt="Solar Clean Colorado cleaning windows" className="img-thumbnail" width={480} height={640} />
               </div>
               <div className="carousel-item" data-bs-interval="3000">
                 <StaticImage src="../../images/SolarCleanColorado4.webp" alt="Solar Clean Colorado cleaning windows"  className="img-thumbnail" width={480} height={640} />
