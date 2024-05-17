@@ -11,10 +11,10 @@ const imageProps = {
 // To bypass Gatsby's StaticImage props limitation
 const images = {
   home: <StaticImage src="../../images/solarpanels2.webp" {...imageProps} />,
-  aboutUs: <StaticImage src="../../images/solarpanels4.webp" {...imageProps} />,
-  contactUs: <StaticImage src="../../images/solarpanelshome1.webp" {...imageProps} />,
+  aboutUs: <StaticImage src="../../images/solarpanels5.webp" {...imageProps} />,
+  contactUs: <StaticImage src="../../images/SolarCleanColorado6.webp" {...imageProps} />,
   solarCleaning: <StaticImage src="../../images/solarpanelscleaning1.webp" {...imageProps} />,
-  windowCleaning: <StaticImage src="../../images/windows1.webp" {...imageProps} />
+  windowCleaning: <StaticImage src="../../images/windows1.webp" placeholder="blurred" alt="Clean Windows" />
 }
 
 const Jumbotron = ({img, title, subtitle}) => {

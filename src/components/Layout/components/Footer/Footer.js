@@ -24,7 +24,8 @@ const Footer = () => {
           <ul className="footer-navigation">
             <li><a href="/">Home</a></li>
             <li><a href="/about-us">About Us</a></li>
-            <li><a href="/services">Services</a></li>
+            <li><a href="/services/window-cleaning">Window Cleaning</a></li>
+            <li><a href="/services/solar-panel-cleaning">Solar Panel Cleaning</a></li>
             <li><a href="/contact-us">Contact Us</a></li>
           </ul>
         </div>
