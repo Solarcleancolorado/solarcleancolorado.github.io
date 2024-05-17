@@ -10,12 +10,15 @@ const IndexPage = () => {
   return (
     <Layout>
       <Jumbotron img="windowCleaning" title="Window Cleaning" />
-      <CallToAction button="Get a Free Quote" text="Ready to experience the difference? Contact us today!" />
-      <section className="window-cleaning">
-        <h2>Crystal Clear Windows for a Brighter Tomorrow</h2>
+      <CallToAction button="Call us today!" text="Transform your view with gleaming windows!"  top={false}/>
+      <section className="window-cleaning body-section pb-0">
+        <div>
+          <h2>Crystal Clear Windows for a Brighter Tomorrow</h2>
+          <hr className="underline mb-3" />
+        </div>
         <p>Transform your home or business with our comprehensive window cleaning services at Solar Clean Colorado. Our team of skilled professionals is committed to delivering streak-free, spotless windows that enhance your property's appearance and allow natural light to flood in. Using industry-leading techniques and eco-friendly cleaning solutions, we tackle even the toughest grime and buildup, leaving your windows sparkling clean and inviting. Whether you need interior or exterior window cleaning, trust Solar Clean Colorado to provide exceptional results every time.</p>
       </section>
-      <WhyCleanWindows />
+      <WhyCleanWindows className="body-section" />
     </Layout>
   )
 }

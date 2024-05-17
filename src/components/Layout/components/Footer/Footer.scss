@@ -10,17 +10,20 @@
     }
 
     &.summary {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 40px 5%;
         height: auto;
         background-color: lighten($dark, 15%);
 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-template-columns: auto auto auto 1fr;
         grid-template-rows: 1fr;
         gap: 10px;
         justify-items: center;
         align-items: start;
+
+        > * {
+            padding: 1em;
+        }
 
 
         h3 {
@@ -31,15 +34,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr;    
             justify-items: start;
-            padding-left: 5%;
-        }
-        
-        
-        // @media (max-width: 576px) {
-        //     grid-template-columns: 1fr 2fr 1fr 1fr;
-        //     grid-template-rows: 1fr 5fr;    
-        // }
-        
+        }       
 
         .logo {
             margin: auto;

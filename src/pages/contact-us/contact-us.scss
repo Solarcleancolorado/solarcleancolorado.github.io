@@ -1,20 +1,52 @@
 @import '../../styles/variables';
 
-.grid-container {
-    display: grid;
+.contact-us {
 
-    .contact-us {
-        padding: 100px 20%;
-        font-size: larger;
+    a {
+        text-decoration: none;
+        color: $black;
+    }
 
-        a {
-            text-decoration: none;
-            color: $black;
+    h2 {
+        text-align: center;
+    }
+
+    em {
+        color: lighten($primary, 15%);
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+    .contact-info {
+        display: flex;
+        gap: 60px;
+        margin: 50px 0;
+        align-items: center;
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        @media (max-width: 992px) {
+            gap: 20px;
+        }
+    }
+    
+
+
+    @media (max-width: 1200px) {
+        h2 {
+            font-size: 2em;
         }
 
+        padding: 60px 12%;
+    }
+
+
+    @media (max-width: 576px) {
         h2 {
-            text-align: center;
-            font-size: 2em;
+            font-size: 1.5em;
         }
 
         em {
@@ -22,48 +54,12 @@
             font-weight: 700;
             font-size: 1.5em;
         }
-
         .contact-info {
-            display: flex;
-            justify-content: space-between;
-            margin: 50px 0;
-            align-items: center;
-
-            .contact-details {
-                display: flex;
-                flex-direction: column;
-            }
+            gap: 40px;
+            flex-direction: column;
+            align-items: start;
         }
         
-
-
-        @media (max-width: 1200px) {
-            h2 {
-                font-size: 2em;
-            }
-    
-            padding: 60px 12%;
-        }
-    
-    
-        @media (max-width: 576px) {
-            h2 {
-                font-size: 1.5em;
-            }
-
-            em {
-                color: lighten($primary, 15%);
-                font-weight: 700;
-                font-size: 1.5em;
-            }
-            .contact-info {
-                gap: 40px;
-                flex-direction: column;
-                align-items: start;
-            }
-            
-            padding: 60px 5%;
-        }
+        padding: 60px 5%;
     }
-
 }

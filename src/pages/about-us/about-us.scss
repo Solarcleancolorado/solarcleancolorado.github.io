@@ -1,70 +1,76 @@
+@import '../../styles/variables';
 .grid-container {
-    display: grid;
-
     .about-us {
-        padding: 100px 20%;
-        font-size: larger;
-    
-        h2, h3 {
-            text-align: center;
-        }
-        
-        h2 {
-            font-size: 2.5em;
-        }
-    
-        .underline {
-            margin: 0 auto 125px auto;
-            width: 50%;
-        }
-    
-        .section {
-            margin-top: 120px;
-    
-            h3 {
-                font-size: 1.75em;
+        text-align: center;
+        margin: 0px 10% 60px 10%;
+
+        .gallery {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+
+            > :nth-child(2) {
+                margin-top: 25px;
+                margin-bottom: 25px;
             }
-    
-            p {
-                font-size: 1.25em;
+
+            > :nth-child(1)  {
+                margin-bottom: 50px;
+            } 
+            > :nth-child(3) {
+                margin-top: 50px;
             }
-        
-            @media (max-width: 992px) {
-                h3 {
-                    font-size: 1.25em;
-                }
-                
-                p {
-                    font-size: 1em;
-                }
-            }
+        }
+
+        #imageCarousel {
+            width: 100%;
+            max-width: 325;
+            max-height: 100%;
             
-            
-            @media (max-width: 576px) {
-                h3 {
-                    font-size: 1em;
-                }
+            margin-top: 5em;
+            margin-bottom: 5em;
+
+            .carousel-item {
+                width: 100%;
+                max-width: 325;
+                max-height: 100%;       
             }
         }
-    
+
+        .sustainable, .licensed-insured {
+            margin-left: 10%;
+            margin-right: 10%;
+
+            @media (max-width: 768px) {
+                margin-left: 10%;
+                margin-right: 10%;            
+            }
+        }
+
+        .sustainable {
+            margin-top: 5em;
+        }
+
+        .gallery {
+            margin-top: 5em;
+            margin-bottom: 5em;
+        }            
         
-    
-    
-        @media (max-width: 1200px) {
-            h2 {
-                font-size: 2em;
+        @media (max-width: 768px) {
+            .sustainable {
+                margin-top: 5em;
             }
     
-            padding: 60px 12%;
+            .gallery {
+                margin-top: 5em;
+                margin-bottom: 5em;
+            }                  
         }
-    
-    
+
         @media (max-width: 576px) {
-            h2 {
-                font-size: 1.75em;
-            }
-    
-            padding: 60px 5%;
+            margin: 30px 2% 50px 2%;      
         }
     }
 }
+

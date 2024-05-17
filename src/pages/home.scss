@@ -1,19 +1,13 @@
 @import '../styles/variables';
 
 .grid-container {
-    display: grid;
 
-    .images {
-        
-        img {
-            width: 500px;
-            height: 300px;
-            object-fit: cover;
-        }
+    .background-light {
+        background-color: #3d3d3d;
+        color: white;
     }
-}
 
-
-.fill {
-    height: 300px;
+    .fill {
+        height: 300px;
+    }
 }

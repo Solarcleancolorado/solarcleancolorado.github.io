@@ -17,6 +17,7 @@
         position: absolute; /* Position the image within the container */
         left: 0;
         object-fit: cover;
+        box-shadow: none !important;
     }
     
     h1, h2, h3 {

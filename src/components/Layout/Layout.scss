@@ -1,6 +1,9 @@
 
+@import '../../styles/variables';
+
 .body {
     min-width: 366px;
     max-width: 2000px;
     margin: 0 auto;
+    background-color: white;
 }

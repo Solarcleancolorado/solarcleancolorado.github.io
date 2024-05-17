@@ -6,15 +6,23 @@ import Jumbotron from "../components/Jumbotron/Jumbotron"
 import WhyCleanSolar from "../components/WhyCleanSolar/WhyCleanSolar"
 import { headData } from "../head"
 import WhyCleanWindows from "../components/WhyCleanWindows/WhyCleanWindows"
+import CallToActionLight from "../components/CallToAction/CallToActionLight/CallToActionLight"
 
 const IndexPage = () => {
   return (
     <Layout>
       <div className="grid-container">
         <Jumbotron img="home" title="Solar Clean Colorado" subtitle="Professional Solar Panel and Window Cleaning" />
-        <CallToAction button="Call us today!" text="Give life back to your solar panels!" />
-        <WhyCleanWindows />
-        <WhyCleanSolar />
+        <div className="home">
+        <CallToAction button="Get a Free Quote" text="Ready to experience the difference? Contact us today!"  top={false}/>
+          <div className="body-section">
+            <WhyCleanWindows />
+          </div>
+          <div className="mt-5 body-section background-light">
+            <WhyCleanSolar />
+          </div>
+          <CallToActionLight button="Contact us now!" text="Give life back to your solar panels!"/>
+        </div>
       </div>
     </Layout>
   )

@@ -3,6 +3,8 @@ import "./Footer.scss"
 import { FaRegCopyright  } from "@react-icons/all-files/fa/FaRegCopyright";
 import { FaPhoneAlt  } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
+import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare";
+ 
 
 const Footer = () => {
   return (
@@ -41,6 +43,9 @@ const Footer = () => {
               <span className="navbar-brand mb-0">
                   <FaRegCopyright />&nbsp;<em>Copyright 2024 Solar Clean Colorado</em>
               </span>
+              <div>
+                <a href="https://www.facebook.com/people/Solar-Clean-Colorado/61559218996878/" target="_blank" rel="noopener"><FaFacebookSquare /></a>
+              </div>
           </div>
       </footer>
     </>
