@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer className="footer navbar navbar-dark summary">
-        <StaticImage src="../../../../images/icon.webp" className="m-auto d-none d-lg-block" height={125} width={125}/>
+        <StaticImage src="../../../../images/icon.webp" alt="Solar Clean Colorado icon" className="m-auto d-none d-lg-block" height={125} width={125}/>
         <div>
           <h3>Contact Us</h3>
           <div className="d-flex flex-column">
