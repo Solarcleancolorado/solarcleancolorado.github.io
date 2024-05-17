@@ -4,20 +4,16 @@ import { FaRegCopyright  } from "@react-icons/all-files/fa/FaRegCopyright";
 import { FaPhoneAlt  } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare";
+import { StaticImage } from "gatsby-plugin-image";
  
 
 const Footer = () => {
   return (
     <>
       <footer className="footer navbar navbar-dark summary">
-        <div>
-          <div className="logo" />
-          <div className="social-media">
-          </div>
-        </div>
+        <StaticImage src="../../../../images/icon.webp" className="m-auto d-none d-lg-block" height={125} width={125}/>
         <div>
           <h3>Contact Us</h3>
-
           <div className="d-flex flex-column">
             <span className="d-flex align-items-center"><FaPhoneAlt />&nbsp;<a href="tel:720-541-3606">(720) 541-3606</a></span>
             <span className="d-flex align-items-center"><FaEnvelope />&nbsp;<a href="mailto:info@solarcleancolorado.com">info@solarcleancolorado.com</a></span>
@@ -25,7 +21,6 @@ const Footer = () => {
         </div>
         <div>
           <h3>Links</h3>
-
           <ul className="footer-navigation">
             <li><a href="/">Home</a></li>
             <li><a href="/about-us">About Us</a></li>

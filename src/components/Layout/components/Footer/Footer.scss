@@ -10,41 +10,35 @@
     }
 
     &.summary {
+        background-color: lighten($dark, 15%);
         padding: 40px 5%;
         height: auto;
-        background-color: lighten($dark, 15%);
-
         display: grid;
         grid-template-columns: auto auto auto 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: auto;
         gap: 10px;
         justify-items: center;
         align-items: start;
 
         > * {
-            padding: 1em;
+            margin: 0 1em;
         }
-
 
         h3 {
             color: $info;
         }
         
         @media (max-width: 992px) {
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr;    
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+            gap: 40px;    
             justify-items: start;
+            text-align: start;
+
+            h3 {
+                text-align: start;
+            }
         }       
-
-        .logo {
-            margin: auto;
-            width: 150px;  
-            height: 150px;   
-            background-image: url("/icon.webp");
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
 
         .footer-navigation{ 
             list-style-type: none;
