@@ -43,63 +43,8 @@ module.exports = {
       },
     },
   },
-  {
-    resolve: "gatsby-source-filesystem",
-    options: {
-      name: "pages",
-      path: "./src/pages/",
-    },
-  },
-  "gatsby-transformer-gitinfo",
   "gatsby-plugin-sass", 
   "gatsby-plugin-image", 
-  {
-  resolve: "gatsby-plugin-sitemap",
-  options: {
-    query: `{
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
-      allSitePage {
-        nodes {
-          path
-        }
-      }
-      allFile(filter: {sourceInstanceName: {eq: "pages"}}) {
-        edges {
-          node {
-            fields {
-              gitLogLatestDate
-            }
-            name
-          }
-        }
-      }
-    }`,
-    resolvePages: ({
-      allSitePage: { nodes: sitePages },
-      allFile: { edges: pageFiles }
-    }) => {
-      return sitePages.map(page => {
-        const pageFile = pageFiles.find(({ node }) => {
-          const fileName = node.name === 'index' ? '/' : `/${node.name}/`;
-          return page.path === fileName;
-        });
-
-        return { ...page, ...pageFile?.node?.fields }
-      })
-    },
-    serialize: ({ path, gitLogLatestDate }) => {
-      return {
-        url: path,
-        lastmod: gitLogLatestDate
-      }
-    },
-    createLinkInHead: true,
-  },
-},
   "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
