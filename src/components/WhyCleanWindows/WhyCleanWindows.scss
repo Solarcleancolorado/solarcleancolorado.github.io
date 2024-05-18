@@ -9,14 +9,14 @@
         grid-column: 1 / 3;
     }
 
-    img {
+    .rounded-img {
         width: 500px;
         height: 500px;
         border-radius: 50%;
     }
 
     @media (max-width: 1200px) {
-        img {
+        .rounded-img {
             width: 400px;
             height: 400px;
         }
@@ -25,7 +25,7 @@
     @media (max-width: 992px) {
         font-size: medium;
         
-        img {
+        .rounded-img {
             width: auto;
             height: 600px;
             border-radius: 0;

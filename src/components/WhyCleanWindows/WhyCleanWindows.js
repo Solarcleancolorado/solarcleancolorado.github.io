@@ -12,7 +12,7 @@ const WhyCleanWindows = ({className}) => {
         <hr />
       </span>
       <div className="img-container">
-        <StaticImage src="../../images/windows2.webp" alt="Clean windows in home" placeholder="blurred" className="img-fluid"  height={900.23} width={600} />
+        <StaticImage src="../../images/windows2.webp" alt="Clean windows in home" placeholder="blurred" className="img-fluid m-2 rounded-img"  height={900.23} width={600} />
       </div>
       <span>
           <h3>Improve Indoor Comfort and Efficiency</h3>
