@@ -40,7 +40,7 @@ const Footer = () => {
                   <FaRegCopyright />&nbsp;<em>Copyright 2024 Solar Clean Colorado</em>
               </span>
               <div>
-                <a href="https://www.facebook.com/people/Solar-Clean-Colorado/61559218996878/" target="_blank" rel="noopener"><FaFacebookSquare /></a>
+                <a href="https://www.facebook.com/people/Solar-Clean-Colorado/61559218996878/" target="_blank" rel="noopener" aria-label="Facebook Link"><FaFacebookSquare /></a>
               </div>
           </div>
       </footer>
