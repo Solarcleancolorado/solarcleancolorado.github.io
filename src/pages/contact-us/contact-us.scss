@@ -22,11 +22,50 @@
         gap: 60px;
         margin: 50px 0;
         align-items: center;
+        align-items: start;
 
-        .contact-details {
+        a {
+            font-size: larger;
+        }
+        
+        .contact-and-social {
             display: flex;
             flex-direction: column;
+            gap: 25px;
+
+            svg {
+                height: 20px;
+                width: 20px;
+            }
+
+            .contact-details {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .social {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+            }
+
+                        
+            @media (max-width: 992px) {
+                svg {
+                    height: 15px;
+                    width: 15px;
+                }
+
+                .social {
+                    svg {
+                        height: 20px;
+                        width: 20px;
+                    }
+                }
+            }
         }
+
+
         
         @media (max-width: 992px) {
             gap: 20px;
