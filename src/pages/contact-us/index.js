@@ -21,6 +21,7 @@ const IndexPage = () => {
               <div className="hours-of-operation">
                 <h3>Hours of Operation</h3>
                 <p>Monday - Friday<br />9:00 AM - 5:00 PM</p>
+                <p>Saturday<br />9:00 AM - 1:00 PM</p>
               </div>
               <div className="contact-details">
                 <span className="d-flex align-items-center"><FaPhoneAlt />&nbsp;<a href="tel:720-541-3606">(720) 541-3606</a></span>
