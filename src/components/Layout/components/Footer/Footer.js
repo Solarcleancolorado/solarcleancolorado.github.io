@@ -3,8 +3,6 @@ import "./Footer.scss"
 import { FaRegCopyright  } from "@react-icons/all-files/fa/FaRegCopyright";
 import { FaPhoneAlt  } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
-import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare";
-import { SiNextdoor } from "@react-icons/all-files/si/SiNextdoor";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Footer = () => {
@@ -39,10 +37,6 @@ const Footer = () => {
               <span className="navbar-brand mb-0">
                   <FaRegCopyright />&nbsp;<em>Copyright 2024 Solar Clean Colorado</em>
               </span>
-              <div className="social">
-                <a href="https://www.facebook.com/people/Solar-Clean-Colorado/61559218996878/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Link"><FaFacebookSquare /></a>
-                <a href="https://nextdoor.com/pages/solar-clean-colorado-castle-rock-co/?query=solar%20clean%20colorado" target="_blank" rel="noopener noreferrer" aria-label="Nextdoor Link"><SiNextdoor /></a>
-              </div>
           </div>
       </footer>
     </>

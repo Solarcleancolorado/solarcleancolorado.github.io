@@ -28,15 +28,16 @@ const IndexPage = () => {
               <div className="contact-and-social">
                 <div className="contact-details">
                   <h3 className="text-start">Call, Text or Email Us</h3>
-                  <span className="d-flex align-items-center"><FaPhoneAlt />&nbsp;<a href="tel:720-541-3606">(720) 541-3606</a></span>
-                  <span className="d-flex align-items-center"><FaEnvelope />&nbsp;<a href="mailto:info@solarcleancolorado.com">info@solarcleancolorado.com</a></span>
+                  <span className="d-flex align-items-center"><FaPhoneAlt className="solar-clean-colorado-icons" /><a href="tel:720-541-3606">(720) 541-3606</a></span>
+                  <span className="d-flex align-items-center"><FaEnvelope className="solar-clean-colorado-icons" /><a href="mailto:info@solarcleancolorado.com">info@solarcleancolorado.com</a></span>
                 </div>
                 <div>
                   <h3 className="text-start">Follow Our Social Media</h3>
                   <div className="social">
-                    <a href="https://www.facebook.com/people/Solar-Clean-Colorado/61559218996878/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Link"><FaFacebookSquare /></a>
-                    <a href="https://nextdoor.com/pages/solar-clean-colorado-castle-rock-co/?query=solar%20clean%20colorado" target="_blank" rel="noopener noreferrer" aria-label="Nextdoor Link"><SiNextdoor /></a>
+                    <a href="https://www.facebook.com/people/Solar-Clean-Colorado/61559218996878/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Link" className="facebook"><FaFacebookSquare /></a>
+                    <a href="https://nextdoor.com/pages/solar-clean-colorado-castle-rock-co/?query=solar%20clean%20colorado" target="_blank" rel="noopener noreferrer" aria-label="Nextdoor Link" className="nextdoor"><SiNextdoor /></a>
                   </div>        
+
                 </div>
               </div>
             </div>
