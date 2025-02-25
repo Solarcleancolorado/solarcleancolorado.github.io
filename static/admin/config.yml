@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: Solarcleancolorado/solarcleancolorado.github.io
+  branch: master # or "master" depending on your repo
+
+local_backend: true
+
+media_folder: "static/images" # Where uploaded images are stored
+public_folder: "/images" # Public URL path for images
+
+collections:
+  - name: "sales"
+    label: "Sales"
+    delete: true # Prevents deletion
+    editor:
+      preview: true
+    files:
+      - name: "single_sale"
+        label: "Sale"
+        file: "content/sales/sale.md"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { name: "image", label: "Image", widget: "image" }
+
+  - name: "popup"
+    label: "Popup"
+    delete: true
+    editor:
+      preview: true
+    files:
+      - name: "single_popup"
+        label: "Popup"
+        file: "content/popup/popup.md"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "message", label: "Message", widget: "text" }
+          - { name: "enabled", label: "Enabled", widget: "boolean", default: true }

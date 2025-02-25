@@ -1,3 +1,30 @@
+# Node.js dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Gatsby cache and build files
 .cache/
-public
+public/
+build/
+
+# Gatsby function logs (if using Gatsby Functions)
+functions/*/node_modules/
+functions/*/.cache/
+
+# Environment variables
+.env*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# MacOS & system files
+.DS_Store
+Thumbs.db
+
+
+static/images/
+content/

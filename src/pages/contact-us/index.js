@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState, useEffect } from "react"
 import "./contact-us.scss"
 import Layout from "../../components/Layout/Layout"
 import Jumbotron from "../../components/Jumbotron/Jumbotron"
@@ -10,6 +10,35 @@ import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare";
 import { SiNextdoor } from "@react-icons/all-files/si/SiNextdoor";
 
 const IndexPage = () => {
+  // const [message, setMessage] = React.useState({ name:"", to: "", body: ""})
+
+  // const onClick = event => {
+  //   event.preventDefault()
+
+  //   const { name, to, body } = message
+
+  //   fetch("https://platinum-chicken-4842.twil.io/send-sms", {
+  //     method: "post",
+  //     headers: {
+  //       "Content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+  //     },
+  //     body: new URLSearchParams({ name, to, body }).toString(),
+  //   }).then(res => {
+  //     if (res.status === 200) {
+  //       console.log("Yay");
+  //     } else {
+  //       console.log(res);
+  //     }
+  //   }).catch(error => {
+  //     console.log(error);
+  //   })
+  // }
+
+  // const onChange = event => {
+  //   const name = event.target.getAttribute("name")
+  //   setMessage({ ...message, [name]: event.target.value })
+  // }
+
   return (
     <Layout>
       <div className="grid-container">  
@@ -37,11 +66,25 @@ const IndexPage = () => {
                     <a href="https://www.facebook.com/people/Solar-Clean-Colorado/61559218996878/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Link" className="facebook"><FaFacebookSquare /></a>
                     <a href="https://nextdoor.com/pages/solar-clean-colorado-castle-rock-co/?query=solar%20clean%20colorado" target="_blank" rel="noopener noreferrer" aria-label="Nextdoor Link" className="nextdoor"><SiNextdoor /></a>
                   </div>        
-
                 </div>
               </div>
             </div>
             <p>At Solar Clean Colorado, we specialize in residential and commercial window and solar panel cleaning. Our dedicated team ensures your property shines and operates efficiently. With meticulous attention to detail and professional service, we guarantee to exceed your expectations.</p>
+            {/* <form className="body-section">
+              <div className="mb-3">
+                  <label for="name" className="form-label">Name</label>
+                  <input type="text" className="form-control" name="name" id="name" placeholder="Enter your name" required value={message.name} onChange={onChange} />
+              </div>
+              <div className="mb-3">
+                  <label for="phone" className="form-label">Phone Number</label>
+                  <input type="tel" className="form-control" name="to" id="phone" placeholder="Enter your phone number" required value={message.to} onChange={onChange} />
+              </div>
+              <div className="mb-3">
+                  <label for="info" className="form-label">Additional Information</label>
+                  <textarea className="form-control" id="info" name="body" rows="5" placeholder="Enter additional information" required value={message.body} onChange={onChange}></textarea>
+              </div>
+              <button type="submit" className="btn btn-primary" onClick={onClick}>Submit</button>
+            </form> */}
           </section>
         <BorderBreak backgroundColor="info"/>
         <BorderBreak height="100px" backgroundColor="dark"></BorderBreak>
@@ -59,4 +102,3 @@ export const Head = () =>
     <meta name="description" content="Get in touch with Solar Clean Colorado today. Reach out for expert window and solar panel cleaning services in the Douglas County area." />
     { headData }
   </>
-

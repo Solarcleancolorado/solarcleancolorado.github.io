@@ -1,6 +1,16 @@
 
 @import '../../styles/variables';
 
+.popup {
+    background-color: white;
+
+    text-align: center;
+    
+    p {
+        margin-bottom: 0;
+    }
+}
+
 .body {
     min-width: 366px;
     max-width: 2000px;
