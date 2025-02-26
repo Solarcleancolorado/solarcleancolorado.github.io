@@ -3,7 +3,7 @@ backend:
   repo: Solarcleancolorado/solarcleancolorado.github.io
   branch: master # or "master" depending on your repo
 
-local_backend: true
+# local_backend: true
 
 media_folder: "static/images" # Where uploaded images are stored
 public_folder: "/images" # Public URL path for images
