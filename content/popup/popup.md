@@ -1,5 +1,5 @@
 ---
-title: Something here
-message: This is a sale!
-enabled: true
+title: Sale!!
+message: 25% off!
+enabled: false
 ---
